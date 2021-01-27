@@ -1,0 +1,22 @@
+stages:
+  - test
+  - deploy
+
+test:
+  stage: test
+  image: node:15.6.0-alpine
+    - npm ci
+    - npm run lint
+
+deploy:
+  stage: deploy
+  image: ruby:2.5.5-alpine3.10
+  before_script:
+    - apk update
+    - apk add ruby-dev git curl
+    - gem install dpl
+  script:
+    - dpl --provider=heroku --app=statusops --api-key=$HEROKU_PRODUCTION_API_KEY
+  only:
+    - master
+  when: manual
