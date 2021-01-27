@@ -5,6 +5,7 @@ stages:
 test:
   stage: test
   image: node:15.6.0-alpine
+  script:
     - npm ci
     - npm run lint
 
