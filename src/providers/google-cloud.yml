@@ -1,0 +1,280 @@
+firebase_ab_testing:
+  name: Firebase AB Testing
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: AB Testing
+firebase_analytics:
+  name: Firebase Analytics
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: Analytics
+firebase_app_distribution:
+  name: Firebase App Distribution
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: App Distribution
+firebase_app_indexing:
+  name: Firebase App Indexing
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: App Indexing
+firebase_authentication:
+  name: Firebase Authentication
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: Authentication
+firebase_cloud_messaging:
+  name: Firebase Cloud Messaging
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: Cloud Messaging
+firebase_console:
+  name: Firebase Console
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: Console
+firebase_crashlytics:
+  name: Firebase Crashlytics
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: Crashlytics
+firebase_dynamic_links:
+  name: Firebase Dynamic Links
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: Dynamic Links
+firebase_cloud_functions:
+  name: Firebase Cloud Functions
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: Functions
+firebase_hosting:
+  name: Firebase Hosting
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: Hosting
+firebase_machine_learning:
+  name: Firebase Machine Learning
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: ML Kit
+firebase_performance_monitoring:
+  name: Firebase Performance Monitoring
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: Performance Monitoring
+firebase_predictions:
+  name: Firebase Predictions
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: Predictions
+firebase_realtime_db:
+  name: Firebase Realtime Database
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: Realtime Database
+firebase_remote_config:
+  name: Firebase Remote Config
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: Remote Config
+firebase_storage:
+  name: Firebase Storage
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: Storage
+firebase_test_lab:
+  name: Firebase Test Lab
+  ingestion:
+    baseUrl: 'https://status.firebase.google.com'
+    serviceKey: Test Lab
+google_cloud_appengine:
+  name: Google App Engine
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: appengine
+google_cloud_asset_inventory:
+  name: Google Asset Inventory
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: asset-inventory
+google_cloud_bigquery:
+  name: Google BigQuery
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: bigquery
+google_cloud_compute:
+  name: Google Compute Engine
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: compute
+google_cloud_data_fusion:
+  name: Google Cloud Data Fusion
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-data-fusion
+google_cloud_dataproc:
+  name: Google Cloud Dataproc
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-dataproc
+google_cloud_datastore:
+  name: Google Cloud Datastore
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-datastore
+google_cloud_developer_tools:
+  name: Google Cloud Developer Tools
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-dev-tools
+google_cloud_dns:
+  name: Google Cloud DNS
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-dns
+google_cloud_filestore:
+  name: Google Cloud Filestore
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-filestore
+google_cloud_firestore:
+  name: Google Cloud Firestore
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-firestore
+google_cloud_functions:
+  name: Google Cloud Functions
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-functions
+google_cloud_iam:
+  name: Google Cloud IAM
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-iam
+google_cloud_iot:
+  name: Google Cloud IoT
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-iot
+google_cloud_kms:
+  name: Google Cloud KMS
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-kms
+google_cloud_memorystore:
+  name: Google Cloud Memorystore
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-memorystore
+google_cloud_ml:
+  name: Google Cloud Machine Learning
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-ml
+google_cloud_networking:
+  name: Google Cloud Networking
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-networking
+google_cloud_pubsub:
+  name: Google Cloud Pub/Sub
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-pubsub
+google_cloud_run:
+  name: Google Cloud Run
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-run
+google_cloud_scheduler:
+  name: Google Cloud Scheduler
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-scheduler
+google_cloud_security_command_center:
+  name: Google Cloud Security Command Center
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-security-command-center
+google_cloud_spanner:
+  name: Google Cloud Spanner
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-spanner
+google_cloud_sql:
+  name: Google Cloud SQL
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-sql
+google_cloud_talent_solution:
+  name: Google Cloud Talent Solution
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-talent-solution
+google_cloud_tasks:
+  name: Google Cloud Tasks
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-tasks
+google_cloud_endpoints:
+  name: Google Cloud Endpoints
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloudendpoints
+google_cloud_composer:
+  name: Google Cloud Composer
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: composer
+google_cloud_dataflow:
+  name: Google Cloud Dataflow
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-dataflow
+google_cloud_kubernetes_engine:
+  name: Google Kubernetes Engine
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: container-engine
+google_cloud_console:
+  name: Google Cloud Console
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: developers-console
+google_cloud_operations:
+  name: Google Cloud Operations
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: google-stackdriver
+google_cloud_healthcare:
+  name: Google Cloud Healthcare and Life Sciences
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: healthcare
+google_cloud_secret_manager:
+  name: Google Cloud Secret Manager
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: sercret-manager
+google_cloud_bigtable:
+  name: Google Cloud Bigtable
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: cloud-bigtable
+google_cloud_support:
+  name: Google Cloud Support
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: support
+google_cloud_zall:
+  name: Google Cloud Infrastructure Components
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: zall
+google_cloud_storage:
+  name: Google Cloud Storage
+  ingestion:
+    baseUrl: 'https://status.cloud.google.com'
+    serviceKey: storage

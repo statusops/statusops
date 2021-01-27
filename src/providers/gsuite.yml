@@ -1,0 +1,36 @@
+google_g_suite_gmail:
+  name: Gmail
+google_g_suite_google_calendar:
+  name: Google Calendar
+google_g_suite_google_drive:
+  name: Google Drive
+google_g_suite_google_docs:
+  name: Google Docs
+google_g_suite_google_sheets:
+  name: Google Sheets
+google_g_suite_google_slides:
+  name: Google Slides
+google_g_suite_google_sites:
+  name: Google Sites
+google_g_suite_google_groups:
+  name: Google Groups
+google_g_suite_classic_hangouts:
+  name: Classic Hangouts
+google_g_suite_google_chat:
+  name: Google Chat
+google_g_suite_google_meet:
+  name: Google Meet
+google_g_suite_google_vault:
+  name: Google Vault
+google_g_suite_currents:
+  name: Currents
+google_g_suite_google_forms:
+  name: Google Forms
+google_g_suite_google_cloud_search:
+  name: Google Cloud Search
+google_g_suite_google_keep:
+  name: Google Keep
+google_g_suite_google_tasks:
+  name: Google Tasks
+google_g_suite_google_voice:
+  name: Google Voice

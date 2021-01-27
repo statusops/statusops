@@ -1,0 +1,384 @@
+airbrake:
+  name: Airbrake
+  ingestion:
+    feedUrl: 'https://status.airbrake.io/history.rss'
+arcot:
+  name: Arcot
+  ingestion:
+    feedUrl: 'https://status.arcot.com/history.rss'
+atlassian_access:
+  name: Atlassian Access
+  ingestion:
+    feedUrl: 'https://access.status.atlassian.com/history.rss'
+atlassian_developers:
+  name: Atlassian Developers
+  ingestion:
+    feedUrl: 'https://developer.status.atlassian.com/history.rss'
+atlassian_partners:
+  name: Atlassian Partners
+  ingestion:
+    feedUrl: 'https://partners.status.atlassian.com/history.rss'
+atlassian_support:
+  name: Atlassian Support
+  ingestion:
+    feedUrl: 'https://support.status.atlassian.com/history.rss'
+bitbucket:
+  name: Bitbucket
+  ingestion:
+    feedUrl: 'https://bitbucket.status.atlassian.com/history.rss'
+bluejeans:
+  name: BlueJeans
+  ingestion:
+    feedUrl: 'https://status.bluejeans.com/history.rss'
+buffer:
+  name: Buffer
+  ingestion:
+    feedUrl: 'https://status.buffer.com/history.rss'
+bugsang:
+  name: Bugsnag
+  ingestion:
+    feedUrl: 'https://status.bugsnag.com/history.rss'
+buildkite:
+  name: Buildkite
+  ingestion:
+    feedUrl: 'https://www.buildkitestatus.com/history.rss'
+chargebee:
+  name: Chargebee
+  ingestion:
+    feedUrl: 'https://status.chargebee.com/history.rss'
+chargify:
+  name: Chargify
+  ingestion:
+    feedUrl: 'https://status.chargify.io/history.rss'
+chef:
+  name: Chef
+  ingestion:
+    feedUrl: 'https://status.chef.io/history.rss'
+circleci:
+  name: CircleCI
+  ingestion:
+    feedUrl: 'https://status.circleci.com/history.rss'
+cloudampq:
+  name: CloudAMPQ
+  ingestion:
+    feedUrl: 'https://status.cloudamqp.com/history.rss'
+cloudflare:
+  name: Cloudflare
+  ingestion:
+    feedUrl: 'https://www.cloudflarestatus.com/history.rss'
+codat:
+  name: Codat
+  ingestion:
+    feedUrl: 'https://status.codat.io/history.rss'
+codeship:
+  name: CodeShip
+  ingestion:
+    feedUrl: 'https://www.codeshipstatus.com/history.rss'
+confluence:
+  name: Confluence
+  ingestion:
+    feedUrl: 'https://confluence.status.atlassian.com/history.rss'
+datadog:
+  name: Datadog
+  ingestion:
+    feedUrl: 'https://status.datadoghq.com/history.rss'
+datadog_eu:
+  name: Datadog (EU)
+  ingestion:
+    feedUrl: 'https://status.datadoghq.eu/history.rss'
+digital_ocean:
+  name: Digital Ocean
+  ingestion:
+    feedUrl: 'https://status.digitalocean.com/history.rss'
+dropbox:
+  name: Dropbox
+  ingestion:
+    feedUrl: 'https://status.dropbox.com/history.rss'
+envoy:
+  name: Envoy
+  ingestion:
+    feedUrl: 'https://status.envoy.com/history.rss'
+expensify:
+  name: Expensify
+  ingestion:
+    feedUrl: 'https://status.expensify.com/history.rss'
+fastly:
+  name: Fastly
+  ingestion:
+    feedUrl: 'https://status.fastly.com/history.rss'
+figma:
+  name: Figma
+  ingestion:
+    feedUrl: 'https://status.figma.com/history.rss'
+flowdock:
+  name: Flowdock
+  ingestion:
+    feedUrl: 'http://status.flowdock.com/history.rss'
+flutterwave:
+  name: Flutterwave
+  ingestion:
+    feedUrl: 'https://status.flutterwave.com/history.rss'
+flywire:
+  name: Flywire
+  ingestion:
+    feedUrl: 'https://status.flywire.com/history.rss'
+fuze:
+  name: Fuze
+  ingestion:
+    feedUrl: 'https://status.fuze.com/history.rss'
+geckoboard:
+  name: Geckoboard
+  ingestion:
+    feedUrl: 'https://geckoboard.statuspage.io/history.rss'
+gemfury:
+  name: Gemfury
+  ingestion:
+    feedUrl: 'https://status.gemfury.com/history.rss'
+github:
+  name: Github
+  ingestion:
+    feedUrl: 'https://www.githubstatus.com/history.rss'
+grafana:
+  name: Grafana
+  ingestion:
+    feedUrl: 'https://grafanalabs.statuspage.io/history.rss'
+hashicorp:
+  name: HashiCorp
+  ingestion:
+    feedUrl: 'https://status.hashicorp.com/history.rss'
+hotjar:
+  name: Hotjar
+  ingestion:
+    feedUrl: 'https://status.hotjar.com/history.rss'
+hubspot:
+  name: Hubspot
+  ingestion:
+    feedUrl: 'https://status.hubspot.com/history.rss'
+idnow:
+  name: IDnow
+  ingestion:
+    feedUrl: 'https://status.idnow.de/history.rss'
+ifttt:
+  name: IFTTT
+  ingestion:
+    feedUrl: 'https://status.ifttt.com/history.rss'
+intercom:
+  name: Intercom
+  ingestion:
+    feedUrl: 'https://www.intercomstatus.com/history.rss'
+jira_core:
+  name: Jira Core
+  ingestion:
+    feedUrl: 'https://jira-core.status.atlassian.com/history.rss'
+jira_service_desk:
+  name: Jira Service Desk
+  ingestion:
+    feedUrl: 'https://jira-service-desk.status.atlassian.com/history.rss'
+jira_software:
+  name: Jira Software
+  ingestion:
+    feedUrl: 'https://jira-software.status.atlassian.com/history.rss'
+keeper_security:
+  name: KeeperSecurity
+  ingestion:
+    feedUrl: 'https://statuspage.keeper.io/history.rss'
+lastpass:
+  name: LastPass
+  ingestion:
+    feedUrl: 'https://status.lastpass.com/history.rss'
+loggly:
+  name: Loggly
+  ingestion:
+    feedUrl: 'http://status.loggly.com/history.rss'
+logzio:
+  name: logz.io
+  ingestion:
+    feedUrl: 'https://status.logz.io/history.rss'
+mailgun:
+  name: Mailgun
+  ingestion:
+    feedUrl: 'https://status.mailgun.com/history.rss'
+message_bird:
+  name: MessageBird
+  ingestion:
+    feedUrl: 'https://status.messagebird.com//history.rss'
+miro:
+  name: Miro
+  ingestion:
+    feedUrl: 'https://status.miro.com/history.rss'
+modern_treasury:
+  name: Modern Treasury
+  ingestion:
+    feedUrl: 'https://status.moderntreasury.com/history.rss'
+mondaycom:
+  name: Monday.com
+  ingestion:
+    feedUrl: 'https://status.monday.com/history.rss'
+mongodb:
+  name: Mongo DB Atlas
+  ingestion:
+    feedUrl: 'https://status.cloud.mongodb.com/history.rss'
+netlify:
+  name: Netlify
+  ingestion:
+    feedUrl: 'https://www.netlifystatus.com/history.rss'
+new_relic:
+  name: New Relic
+  ingestion:
+    feedUrl: 'https://status.newrelic.com/history.rss'
+npm:
+  name: npm
+  ingestion:
+    feedUrl: 'https://status.npmjs.org/history.rss'
+onesky:
+  name: OneSky
+  ingestion:
+    feedUrl: 'http://status.oneskyapp.com/history.rss'
+opsgenie:
+  name: Opsgenie
+  ingestion:
+    feedUrl: 'https://opsgenie.status.atlassian.com/history.rss'
+package_cloud:
+  name: Package Cloud
+  ingestion:
+    feedUrl: 'http://www.packagecloudstatus.io/history.rss'
+pager_duty:
+  name: Pager Duty
+  ingestion:
+    feedUrl: 'https://status.pagerduty.com/history.rss'
+papertrail:
+  name: Papertrail
+  ingestion:
+    feedUrl: 'https://www.papertrailstatus.com/history.rss'
+pendo:
+  name: Pendo
+  ingestion:
+    feedUrl: 'https://status.pendo.io/history.rss'
+plaid:
+  name: Plaid
+  ingestion:
+    feedUrl: 'https://status.plaid.com/history.rss'
+primeiro_pay:
+  name: PrimeiroPay
+  ingestion:
+    feedUrl: 'http://status.primeiropay.com/history.rss'
+product_board:
+  name: productboard
+  ingestion:
+    feedUrl: 'https://status.productboard.com/history.rss'
+pusher:
+  name: Pusher
+  ingestion:
+    feedUrl: 'https://status.pusher.com/history.rss'
+python_package_index:
+  name: Python Package Index
+  ingestion:
+    feedUrl: 'https://status.python.org/history.rss'
+quay:
+  name: Quay
+  ingestion:
+    feedUrl: 'https://status.quay.io/history.rss'
+quickbooks:
+  name: Quickbooks (Intuit)
+  ingestion:
+    feedUrl: 'https://status.quickbooks.intuit.com/history.rss'
+recurly:
+  name: Recurly
+  ingestion:
+    feedUrl: 'https://status.recurly.com/history.rss'
+rollbar:
+  name: Rollbar
+  ingestion:
+    feedUrl: 'https://status.rollbar.com/history.rss'
+rubygems:
+  name: RubyGems
+  ingestion:
+    feedUrl: 'https://status.rubygems.org/history.rss'
+segment:
+  name: Segment
+  ingestion:
+    feedUrl: 'https://status.segment.com/history.rss'
+sendgrid:
+  name: Sendgrid
+  ingestion:
+    feedUrl: 'https://status.sendgrid.com/history.rss'
+sentry:
+  name: Sentry
+  ingestion:
+    feedUrl: 'https://status.sentry.io/history.rss'
+statuspage:
+  name: Statuspage
+  ingestion:
+    feedUrl: 'https://metastatuspage.com/history.rss'
+strava:
+  name: Strava
+  ingestion:
+    feedUrl: 'https://status.strava.com/history.rss'
+sumo_logic_au:
+  name: Sumo Logic AU
+  ingestion:
+    feedUrl: 'https://status.au.sumologic.com/history.rss'
+sumo_logic_de:
+  name: Sumo Logic DE
+  ingestion:
+    feedUrl: 'https://status.de.sumologic.com/history.rss'
+sumo_logic_eu:
+  name: Sumo Logic EU
+  ingestion:
+    feedUrl: 'https://status.eu.sumologic.com/history.rss'
+sumo_logic_us1:
+  name: Sumo Logic US1
+  ingestion:
+    feedUrl: 'https://status.us1.sumologic.com/history.rss'
+sumo_logic_us2:
+  name: Sumo Logic US2
+  ingestion:
+    feedUrl: 'https://status.us2.sumologic.com/history.rss'
+tableau:
+  name: Tableau
+  ingestion:
+    feedUrl: 'https://trust.tableau.com/history.rss'
+teem:
+  name: Teem
+  ingestion:
+    feedUrl: 'https://status.teem.com/history.rss'
+timekit:
+  name: Timekit
+  ingestion:
+    feedUrl: 'https://status.timekit.io/history.rss'
+travis_ci:
+  name: Travis CI
+  ingestion:
+    feedUrl: 'https://www.traviscistatus.com/history.rss'
+trello:
+  name: Trello
+  ingestion:
+    feedUrl: 'https://trello.status.atlassian.com/history.rss'
+twilio:
+  name: Twilio
+  ingestion:
+    feedUrl: 'https://status.twilio.com/history.rss'
+twitter_api:
+  name: Twitter API
+  ingestion:
+    feedUrl: 'https://api.twitterstat.us/history.rss'
+wave:
+  name: Wave
+  ingestion:
+    feedUrl: 'https://status.waveapps.com/history.rss'
+wistia:
+  name: Wistia
+  ingestion:
+    feedUrl: 'https://status.wistia.com/history.rss'
+xero:
+  name: Xero
+  ingestion:
+    feedUrl: 'https://status.xero.com/history.rss'
+zapier:
+  name: Zapier
+  ingestion:
+    feedUrl: 'https://status.zapier.com/history.rss'
+zoom:
+  name: Zoom
+  ingestion:
+    feedUrl: 'https://status.zoom.us/history.rss'

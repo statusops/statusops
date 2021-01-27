@@ -1,0 +1,88 @@
+bamboohr:
+  name: BambooHR
+  ingestion:
+    feedUrl: 'https://status.bamboohr.com/pages/54f0de009d6f51e7140002b7/rss'
+brightcove:
+  name: Brightcove
+  ingestion:
+    feedUrl: 'https://status.io/pages/534ec4a0b79718bb73000083/rss'
+clickup:
+  name: ClickUp
+  ingestion:
+    feedUrl: 'https://status.io/pages/5b6e0963c662144d00913a09/rss'
+cloud66:
+  name: Cloud 66
+  ingestion:
+    feedUrl: 'https://status.io/pages/55a770a50a54eb8c710005a9/rss'
+commercetools:
+  name: commercetools
+  ingestion:
+    feedUrl: 'https://status.io/pages/56e4295370fe4ece420002bb/rss'
+dns_made_simple:
+  name: DNS Made Easy
+  ingestion:
+    feedUrl: 'https://status.io/pages/5f0f1641e8578204c4e2eec7/rss'
+drift:
+  name: Drift
+  ingestion:
+    feedUrl: 'https://status.io/pages/573e0704b8fbd4db1a0016dd/rss'
+docker_system:
+  name: Docker System
+  ingestion:
+    feedUrl: 'https://status.docker.com/pages/533c6539221ae15e3f000031/rss'
+druva_insync:
+  name: Druva inSync
+  ingestion:
+    feedUrl: 'https://status.io/pages/59a823c8ce070a2005000074/rss'
+druva_phoenix:
+  name: Druva Phoenix
+  ingestion:
+    feedUrl: 'https://status.io/pages/59a824ec6786d5aa05000044/rss'
+dynatrace:
+  name: Dynatrace
+  ingestion:
+    feedUrl: 'https://dynatrace.status.io/pages/546d8cb6af8407b6730000cb/rss'
+gitlab:
+  name: Gitlab
+  ingestion:
+    feedUrl: 'https://status.gitlab.com/pages/5b36dc6502d06804c08349f7/rss'
+globaledit:
+  name: globaledit
+  ingestion:
+    feedUrl: 'http://status.globaledit.com/pages/56e04a06e6d449cd19000a29/rss'
+kaseya:
+  name: Kaseya
+  ingestion:
+    feedUrl: 'https://status.io/pages/5a317d8a2e604604d65c1c76/rss'
+lets_encrypt:
+  name: Let's encrypt
+  ingestion:
+    feedUrl: 'https://letsencrypt.status.io/pages/55957a99e800baa4470002da/rss'
+riskified:
+  name: Riskified
+  ingestion:
+    feedUrl: 'https://status.io/pages/56d861d0cde0f65753000fda/rss'
+sendinblue:
+  name: Sendinblue
+  ingestion:
+    feedUrl: 'https://status.io/pages/586a5ae632dde2fc5b0013c1/rss'
+swiftype:
+  name: Swiftype
+  ingestion:
+    feedUrl: 'https://status.io/pages/5578eca31ae0f1de7300016c/rss'
+ticketleap:
+  name: Ticketleap
+  ingestion:
+    feedUrl: 'https://status.io/pages/56608da9939fb9fd49001c05/rss'
+todoist:
+  name: Todoist
+  ingestion:
+    feedUrl: 'https://status.todoist.net/pages/5bc439e41a99c404bdfddd01/rss'
+upwork:
+  name: Upwork
+  ingestion:
+    feedUrl: 'https://status.io/pages/55a1f951d0ef560d6e00006e/rss'
+wasabi:
+  name: Wasabi
+  ingestion:
+    feedUrl: 'https://status.io/pages/5abbc12aeb57a904e44a58d3/rss'

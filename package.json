@@ -1,0 +1,42 @@
+{
+  "name": "ingestions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --reporter=spec",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:fix": "./node_modules/.bin/eslint . --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "mocha": "^8.2.1",
+    "prettier": "^2.2.1",
+    "sinon": "^9.2.3",
+    "sinon-chai": "^3.5.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bull": "^3.20.0",
+    "cheerio": "^1.0.0-rc.5",
+    "feedparser": "^2.2.10",
+    "js-yaml": "^3.14.1",
+    "md5": "^2.3.0",
+    "redis": "^3.0.2",
+    "winston": "^3.3.3"
+  },
+  "engines": {
+    "node": ">=15.6.0",
+    "npm": ">=7.4.0"
+  }
+}
