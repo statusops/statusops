@@ -19,7 +19,7 @@ queue.on("failed", (job) => {
 const ingestions = providers.buildIngestions();
 const everyMinute = "* * * * *";
 
-logger.info("Scheduling ingestions for next minute");
+logger.info(`Scheduling ingestions ${ingestions.length} for next minute`);
 for (const ingestion of ingestions) {
   queue.add(ingestion, {
     jobId: ingestion.name,
