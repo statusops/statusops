@@ -53,6 +53,13 @@ docker-compose up -d
 npm test
 ```
 
+Run in watch mode with `inotifywait`:
+
+```
+while inotifywait -qqre modify './'; do clear; npm test; done
+```
+
+
 ### Lint
 
 ```
