@@ -16,16 +16,28 @@ StatusOps is an open-source service that makes it easy to integrate third-party 
 
 ### Configuration
 
-Configuration is done via environment variables:
+Configuration is done via environment variables.
 
-- MESSAGING_HTTP_WEBHOOK: http endpoint where to post updates when available.
-- REDIS_URL: it defaults to `redis://localhost:6379`
-- LOG_LEVEL: it defaults to `info`
+#### Required
 
-Optional (only used for debugging):
+- `REDIS_URL`: it defaults to `redis://localhost:6379`
 
-- DANGER_NO_CACHE: this will allow to post updates multiple times
-- INGEST_ALL_HISTORY: force providers to collect all incidents from the past
+#### Messaging
+
+In order to receive status updates you need to define at least one of the following env variables:
+
+
+- `MESSAGING_HTTP_WEBHOOK`: the following JSON data will be sent via a POST.
+- `MESSAGING_SLACK_WEBHOOK`: details can be found [here](https://slack.com/intl/en-gb/help/articles/115005265063-Incoming-webhooks-for-Slack)
+
+#### Other
+
+- `LOG_LEVEL`: it defaults to `info`
+
+#### Debugging
+
+- `DANGER_NO_CACHE`: this will allow to post updates multiple times
+- `INGEST_ALL_HISTORY`: force providers to collect all incidents from the past
 
 ### Run periodic ingestions
 
