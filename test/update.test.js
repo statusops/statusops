@@ -1,4 +1,3 @@
-const { expect } = require("chai");
 const { checkValidUpdate } = require("../src/update");
 
 describe("Update", () => {

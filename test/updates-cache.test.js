@@ -1,6 +1,5 @@
 const cache = require("../src/updates-cache");
 const redis = require("../src/infra/redis");
-const { expect } = require("chai");
 
 describe("Updates cache", () => {
   afterEach(async () => {

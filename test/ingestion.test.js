@@ -1,8 +1,3 @@
-const sinon = require("sinon");
-const sinonChai = require("sinon-chai");
-const chai = require("chai");
-chai.use(sinonChai);
-const expect = chai.expect;
 const messaging = require("../src/messaging");
 const redis = require("../src/infra/redis");
 const { runIngestion } = require("../src/ingestion");

@@ -1,5 +1,3 @@
-const sinon = require("sinon");
-const { expect } = require("chai");
 const axios = require("axios");
 const logger = require("../../src/infra/logger");
 const {

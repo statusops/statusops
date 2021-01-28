@@ -1,7 +1,5 @@
-const sinon = require("sinon");
 const { IncomingWebhook } = require("@slack/webhook");
 const { sendToWebhook } = require("../../src/infra/slack");
-const { expect } = require("chai");
 const logger = require("../../src/infra/logger");
 
 describe("sendToWebhook", () => {
