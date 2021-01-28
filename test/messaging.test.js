@@ -8,7 +8,7 @@ const messaging = require("../src/messaging");
 const logger = require("../src/infra/logger");
 const slack = require("../src/infra/slack");
 
-const originalWebhook = process.env.MESSAGING_WEBHOOK;
+const originalWebhook = process.env.MESSAGING_HTTP_WEBHOOK;
 const originalSlackWebhook = process.env.MESSAGING_SLACK_WEBHOOK;
 
 describe("Messaging", () => {
@@ -19,11 +19,11 @@ describe("Messaging", () => {
   describe("when http webhook provided", () => {
     const url = "WEBHOOK";
     before(() => {
-      process.env.MESSAGING_WEBHOOK = url;
+      process.env.MESSAGING_HTTP_WEBHOOK = url;
     });
 
     after(() => {
-      process.env.MESSAGING_WEBHOOK = originalWebhook;
+      process.env.MESSAGING_HTTP_WEBHOOK = originalWebhook;
     });
 
     it("sends update via http", async () => {
@@ -37,7 +37,7 @@ describe("Messaging", () => {
 
     it("does not crash on http failure", async () => {
       const url = "WEBHOOK";
-      process.env.MESSAGING_WEBHOOK = url;
+      process.env.MESSAGING_HTTP_WEBHOOK = url;
       const update = { title: "AN_UPDATE" };
       sinon.stub(axios, "post").withArgs(url, { update }).rejects();
       sinon.spy(logger, "error");

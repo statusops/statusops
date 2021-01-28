@@ -18,7 +18,7 @@ StatusOps is an open-source service that makes it easy to integrate third-party 
 
 Configuration is done via environment variables:
 
-- MESSAGING_WEBHOOK: http endpoint where to post updates when available.
+- MESSAGING_HTTP_WEBHOOK: http endpoint where to post updates when available.
 - REDIS_URL: it defaults to `redis://localhost:6379`
 - LOG_LEVEL: it defaults to `info`
 

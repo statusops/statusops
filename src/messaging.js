@@ -8,7 +8,7 @@ const send = async (update) => {
 };
 
 const sendToHttpWebhook = async (update) => {
-  const url = process.env.MESSAGING_WEBHOOK;
+  const url = process.env.MESSAGING_HTTP_WEBHOOK;
   if (!url) return;
 
   try {
