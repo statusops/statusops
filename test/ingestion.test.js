@@ -9,6 +9,7 @@ const { runIngestion } = require("../src/ingestion");
 const { registerProvider } = require("../src/providers");
 const logger = require("../src/infra/logger");
 const { stubNow, restoreNow } = require("../src/infra/time");
+const { anUpdate } = require("./_helpers/updates");
 
 describe("runIngestion", () => {
   const timeWindow = {
@@ -83,21 +84,4 @@ describe("runIngestion", () => {
     expect(messaging.send).to.have.been.calledWith(validUpdate);
     expect(messaging.send).not.to.have.been.calledWith(invalidUpdate);
   });
-
-  const anUpdate = (attributes = {}) => {
-    const defaults = {
-      title: "A_TITLE",
-      serviceName: "A_SERVICE",
-      serviceKey: "A_SERVICE",
-      description: "A_DESCRIPTION",
-      link: "A_LINK",
-      status: "active",
-      date: new Date("2020-10-10"),
-      incidentReference: "REFERENCE",
-    };
-    return {
-      ...defaults,
-      ...attributes,
-    };
-  };
 });

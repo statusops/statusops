@@ -7,6 +7,7 @@ const axios = require("axios");
 const messaging = require("../src/messaging");
 const logger = require("../src/infra/logger");
 const slack = require("../src/infra/slack");
+const { anUpdate } = require("./_helpers/updates");
 
 const originalWebhook = process.env.MESSAGING_HTTP_WEBHOOK;
 const originalSlackWebhook = process.env.MESSAGING_SLACK_WEBHOOK;
@@ -138,21 +139,4 @@ describe("Messaging", () => {
       expect(logger.error).to.have.been.called;
     });
   });
-
-  const anUpdate = (attributes = {}) => {
-    const defaults = {
-      title: "A_TITLE",
-      serviceName: "A_SERVICE",
-      serviceKey: "A_SERVICE",
-      description: "A_DESCRIPTION",
-      link: "A_LINK",
-      status: "active",
-      date: new Date("2020-10-10"),
-      incidentReference: "REFERENCE",
-    };
-    return {
-      ...defaults,
-      ...attributes,
-    };
-  };
 });
