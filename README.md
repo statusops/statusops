@@ -1,6 +1,6 @@
 # StatusOps
 
-StatusOps is an open-source service that makes it easy to integrate third-party incident status updates with other workflows.
+StatusOps is an open-source (GPLv3) service that makes it easy to integrate third-party incident status updates with other workflows.
 
 - **Standard interface**: services such as Gitlab, Github, AWS or Google Cloud have different ways of posting status updates. StatusOps offers a standard interface.
 - **Ready to use**: there's already >300 services available. Help contributing to have even more!
@@ -93,6 +93,3 @@ npm run lint:fix
 
 TBD
 
-## License
-
-TBD
