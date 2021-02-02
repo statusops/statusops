@@ -1,9 +1,9 @@
 # StatusOps
 
-StatusOps is an open-source (GPLv3) service that makes it easy to integrate third-party incident status updates with other workflows.
+StatusOps is an open-source (GPLv3) service that makes it easy to integrate third-party incident updates with other workflows.
 
 - **Standard interface**: services such as Gitlab, Github, AWS or Google Cloud have different ways of posting status updates. StatusOps offers a standard interface.
-- **Ready to use**: there's already >300 services available. Help contributing to have even more!
+- **Ready to use**: there's already >300 services available. Contribute to have even more!
 - **Easy integration**: updates can be posted via a HTTP webhook or directly to Slack.
 - **Written in NodeJS**: its great I/O makes status checks a breeze.
 
@@ -14,40 +14,34 @@ StatusOps is an open-source (GPLv3) service that makes it easy to integrate thir
 - NodeJS `>=15.6.0`
 - Redis server `>=5.0.5`
 
+*Note: the project includes a Procfile to deploy to Heroku*
+
 ### Configuration
 
-Configuration is done via environment variables.
+Configuration is done via the following environment variables.
 
-#### Required
-
-- `REDIS_URL`: it defaults to `redis://localhost:6379`
-
-#### Messaging
-
-In order to receive status updates you need to define at least one of the following env variables:
-
-
-- `MESSAGING_HTTP_WEBHOOK`: the following JSON data will be sent via a POST.
+- `MESSAGING_HTTP_WEBHOOK`: updates in JSON format will be sent via a POST to the url you provide. Here's an example:
+    ```
+    {
+    "serviceName": "Cloud Acme",
+    "serviceKey": "cloud-acme",
+    "title": "DNS issues",
+    "description": "Something is going wrong on our side.",
+    "link": "https://example.org/incident/url/with/all/details",
+    "status": "active",
+    "date": "2010-09-23T10:10:10.000Z",
+    "incidentReference": "12E5MxYsASa"
+    }
+    ```
 - `MESSAGING_SLACK_WEBHOOK`: details can be found [here](https://slack.com/intl/en-gb/help/articles/115005265063-Incoming-webhooks-for-Slack)
-
-#### Other
-
+- `REDIS_URL`: it defaults to `redis://localhost:6379`
 - `LOG_LEVEL`: it defaults to `info`
 
-#### Debugging
-
-- `DANGER_NO_CACHE`: this will allow to post updates multiple times
-- `INGEST_ALL_HISTORY`: force providers to collect all incidents from the past
-
-### Run periodic ingestions
+### Start service
 
 ```
 node main.js
 ```
-
-### Deployment guides
-
-TBD
 
 ## Development
 
@@ -88,6 +82,13 @@ Or with auto-fix:
 ```
 npm run lint:fix
 ```
+
+### Debugging
+
+You can pass any of the following env variables as `true`:
+
+- `DANGER_NO_CACHE`: this will allow to post updates multiple times. Defaults to `false`.
+- `INGEST_ALL_HISTORY`: force providers to collect all incidents from the past. Defaults to `false`.
 
 ## Contribute
 
