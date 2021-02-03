@@ -32,3 +32,6 @@ publish_services:
     - npm ci
     - node generate-services-csv.js services.csv
     - 'curl --header "JOB-TOKEN: $CI_JOB_TOKEN" --upload-file services.csv "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/services/1.0.0/services.csv"'
+  only:
+    - master
+  when: manual
