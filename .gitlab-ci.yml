@@ -1,6 +1,7 @@
 stages:
   - test
   - deploy
+  - publish
 
 test:
   stage: test
@@ -21,3 +22,13 @@ deploy:
   only:
     - master
   when: manual
+
+publish_services:
+  stage: publish
+  image: node:15.6.0-alpine
+  before_script:
+    - apk add curl
+  script:
+    - npm ci
+    - node generate-services-csv.js services.csv
+     - 'curl --header "JOB-TOKEN: $CI_JOB_TOKEN" --upload-file services.csv "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/services/latest/services.csv"'
