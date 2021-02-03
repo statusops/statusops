@@ -7,7 +7,7 @@ const yaml = require("js-yaml");
 const fs = require("fs");
 const path = require("path");
 
-const providers = {
+let providers = {
   statuspage,
   statusio,
   "google-cloud": googleCloud,
@@ -22,7 +22,7 @@ const parseServicesYaml = (path) => {
   }
   return services;
 };
-const services = {
+let services = {
   statuspage: parseServicesYaml(path.join(__dirname, "./statuspage.yml")),
   statusio: parseServicesYaml(path.join(__dirname, "./statusio.yml")),
   "google-cloud": parseServicesYaml(path.join(__dirname, "./google-cloud.yml")),
@@ -33,6 +33,23 @@ const services = {
 const registerProvider = (name, provider, providerServices) => {
   providers[name] = provider;
   services[name] = providerServices;
+};
+
+const reset = () => {
+  providers = {};
+  services = {};
+};
+
+const fetchServices = (keys = []) => {
+  const allServices = [];
+  for (const providerName in services) {
+    for (const service of services[providerName]) {
+      allServices.push({ ...service, providerName });
+    }
+  }
+  if (keys.includes("*")) return allServices;
+
+  return allServices.filter((service) => keys.includes(service.key));
 };
 
 const buildIngestions = () => {
@@ -55,4 +72,10 @@ const getProvider = (name) => {
   return provider;
 };
 
-module.exports = { buildIngestions, registerProvider, getProvider };
+module.exports = {
+  buildIngestions,
+  fetchServices,
+  registerProvider,
+  getProvider,
+  reset,
+};
