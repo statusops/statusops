@@ -7,29 +7,8 @@ const yaml = require("js-yaml");
 const fs = require("fs");
 const path = require("path");
 
-let providers = {
-  statuspage,
-  statusio,
-  "google-cloud": googleCloud,
-  gsuite,
-  aws,
-};
-const parseServicesYaml = (path) => {
-  const content = yaml.load(fs.readFileSync(path));
-  const services = [];
-  for (const serviceKey in content) {
-    services.push({ key: serviceKey, ...content[serviceKey] });
-  }
-  return services;
-};
-let services = {
-  statuspage: parseServicesYaml(path.join(__dirname, "./statuspage.yml")),
-  statusio: parseServicesYaml(path.join(__dirname, "./statusio.yml")),
-  "google-cloud": parseServicesYaml(path.join(__dirname, "./google-cloud.yml")),
-  gsuite: parseServicesYaml(path.join(__dirname, "./gsuite.yml")),
-  aws: parseServicesYaml(path.join(__dirname, "./aws.yml")),
-};
-
+let providers = {};
+let services = {};
 const registerProvider = (name, provider, providerServices) => {
   providers[name] = provider;
   services[name] = providerServices;
@@ -47,20 +26,27 @@ const fetchServices = (keys = []) => {
       allServices.push({ ...service, providerName });
     }
   }
-  if (keys.includes("*")) return allServices;
-
-  return allServices.filter((service) => keys.includes(service.key));
+  return filterServices(allServices, keys);
 };
 
-const buildIngestions = () => {
+const buildIngestions = (serviceKeys) => {
   const allIngestions = [];
   for (const name in providers) {
     const provider = providers[name];
     const providerServices = services[name];
-    const ingestions = provider.buildIngestions(providerServices);
+    const filteredServices = filterServices(providerServices, serviceKeys);
+    if (!filteredServices.length) continue;
+
+    const ingestions = provider.buildIngestions(filteredServices);
     allIngestions.push(...ingestions);
   }
   return allIngestions;
+};
+
+const filterServices = (services, serviceKeys) => {
+  if (serviceKeys.includes("*")) return services;
+
+  return services.filter((s) => serviceKeys.includes(s.key));
 };
 
 const getProvider = (name) => {
@@ -72,10 +58,38 @@ const getProvider = (name) => {
   return provider;
 };
 
+const loadFromConfig = () => {
+  providers = {
+    statuspage,
+    statusio,
+    "google-cloud": googleCloud,
+    gsuite,
+    aws,
+  };
+  const parseServicesYaml = (path) => {
+    const content = yaml.load(fs.readFileSync(path));
+    const services = [];
+    for (const serviceKey in content) {
+      services.push({ key: serviceKey, ...content[serviceKey] });
+    }
+    return services;
+  };
+  services = {
+    statuspage: parseServicesYaml(path.join(__dirname, "./statuspage.yml")),
+    statusio: parseServicesYaml(path.join(__dirname, "./statusio.yml")),
+    "google-cloud": parseServicesYaml(
+      path.join(__dirname, "./google-cloud.yml")
+    ),
+    gsuite: parseServicesYaml(path.join(__dirname, "./gsuite.yml")),
+    aws: parseServicesYaml(path.join(__dirname, "./aws.yml")),
+  };
+};
+
 module.exports = {
   buildIngestions,
   fetchServices,
   registerProvider,
   getProvider,
   reset,
+  loadFromConfig,
 };

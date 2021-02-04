@@ -2,7 +2,10 @@ const {
   registerProvider,
   reset,
   fetchServices,
+  buildIngestions,
+  loadFromConfig,
 } = require("../../src/providers");
+
 describe("fetch services", () => {
   beforeEach(() => {
     reset();
@@ -44,4 +47,47 @@ describe("fetch services", () => {
 
     expect(services).to.have.lengthOf(2);
   });
+});
+
+describe("buildIngestions", () => {
+  it("provides ingestions for all services", () => {
+    loadFromConfig();
+
+    const result = buildIngestions(["*"]);
+
+    expect(includedInName(result, "gitlab")).to.equal(true);
+    expect(includedInName(result, "github")).to.equal(true);
+    expect(includedInName(result, "cloudflare")).to.equal(true);
+  });
+
+  it("allows to filter services by keys", () => {
+    loadFromConfig();
+
+    const result = buildIngestions(["github", "gitlab"]);
+
+    expect(includedInName(result, "gitlab")).to.equal(true);
+    expect(includedInName(result, "github")).to.equal(true);
+    expect(includedInName(result, "cloudflare")).to.equal(false);
+  });
+
+  it("does not include include providers without services", () => {
+    loadFromConfig();
+
+    const result = buildIngestions(["github", "gitlab"]);
+
+    expect(includedInName(result, "gsuite")).to.equal(false);
+  });
+
+  it("ignores services that not exist", () => {
+    loadFromConfig();
+
+    const result = buildIngestions(["NON_EXISTING", "github"]);
+
+    expect(includedInName(result, "NON_EXISTING")).to.equal(false);
+    expect(includedInName(result, "github")).to.equal(true);
+  });
+
+  const includedInName = (ingestions, text) => {
+    return ingestions.some((i) => i.name.includes(text));
+  };
 });

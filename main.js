@@ -16,7 +16,14 @@ queue.on("failed", (job) => {
   logger.error(job.failedReason);
 });
 
-const ingestions = providers.buildIngestions();
+providers.loadFromConfig();
+
+if (!process.env.SERVICES) {
+  throw new Error("SERVICES configuration is missing");
+}
+const serviceKeys = process.env.SERVICES.split(",");
+
+const ingestions = providers.buildIngestions(serviceKeys);
 const everyMinute = "* * * * *";
 
 logger.info(`Scheduling ingestions ${ingestions.length} for next minute`);

@@ -20,6 +20,7 @@ StatusOps is an open-source (GPLv3) service that makes it easy to integrate thir
 
 Configuration is done via the following environment variables.
 
+- `SERVICES`: include a list of service keys separated by a comma. Example: `gitlab,github,s3_eu_west_3,google_cloud_bigtable`. You can check the services supported [here](https://gitlab.com/statusops/statusops/-/packages/1101031).
 - `MESSAGING_HTTP_WEBHOOK`: updates in JSON format will be sent via a POST to the url you provide. Here's an example:
     ```
     {
