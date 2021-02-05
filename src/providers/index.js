@@ -59,13 +59,9 @@ const getProvider = (name) => {
 };
 
 const loadFromConfig = () => {
-  providers = {
-    statuspage,
-    statusio,
-    "google-cloud": googleCloud,
-    gsuite,
-    aws,
-  };
+  const registry = yaml.load(
+    fs.readFileSync(path.join(__dirname, "./registry.yml"))
+  );
   const parseServicesYaml = (path) => {
     const content = yaml.load(fs.readFileSync(path));
     const services = [];
@@ -74,15 +70,13 @@ const loadFromConfig = () => {
     }
     return services;
   };
-  services = {
-    statuspage: parseServicesYaml(path.join(__dirname, "./statuspage.yml")),
-    statusio: parseServicesYaml(path.join(__dirname, "./statusio.yml")),
-    "google-cloud": parseServicesYaml(
-      path.join(__dirname, "./google-cloud.yml")
-    ),
-    gsuite: parseServicesYaml(path.join(__dirname, "./gsuite.yml")),
-    aws: parseServicesYaml(path.join(__dirname, "./aws.yml")),
-  };
+
+  for (const providerName of registry.providers) {
+    providers[providerName] = require(path.join(__dirname, providerName));
+    services[providerName] = parseServicesYaml(
+      path.join(__dirname, providerName + ".yml")
+    );
+  }
 };
 
 module.exports = {

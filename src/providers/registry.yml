@@ -1,0 +1,6 @@
+providers:
+  - statuspage
+  - statusio
+  - aws
+  - google-cloud
+  - gsuite

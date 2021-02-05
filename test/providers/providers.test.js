@@ -10,6 +10,9 @@ describe("fetch services", () => {
   beforeEach(() => {
     reset();
   });
+  afterEach(() => {
+    reset();
+  });
 
   it("allows to filter services by a list of keys", () => {
     const serviceA = { key: "service-a", name: "SERVICE_A" };
