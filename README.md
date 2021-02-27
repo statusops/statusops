@@ -91,7 +91,18 @@ You can pass any of the following env variables as `true`:
 - `DANGER_NO_CACHE`: this will allow to post updates multiple times. Defaults to `false`.
 - `INGEST_ALL_HISTORY`: force providers to collect all incidents from the past. Defaults to `false`.
 
+
 ## Contribute
 
-TBD
+When contributing to this repository, please first discuss the change you wish to make via issue.
 
+There are many ways you can contribute to StatusOps:
+
+- Register a new service to an existing status provider (examples: [Status.io](src/providers/statusio.yml), [Statuspage](src/providers/statuspage.yml)).
+- Implement a new provider. Please first check for open issues or create a new one to discuss the change you wish to make.
+- Report bug.
+- Suggest new features via a new issue.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0.
