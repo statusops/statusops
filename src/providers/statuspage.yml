@@ -198,6 +198,10 @@ mailgun:
   name: Mailgun
   ingestion:
     feedUrl: 'https://status.mailgun.com/history.rss'
+meltwater_api:
+  name: Meltwater API
+  ingestion:
+    feedUrl: 'https://status.api.meltwater.com/history.rss'
 message_bird:
   name: MessageBird
   ingestion:
