@@ -3,6 +3,7 @@ const logger = require("./infra/logger");
 const slack = require("./infra/slack");
 
 const send = async (update) => {
+  logger.info(`Sending update from ${update.serviceKey}...`);
   sendToHttpWebhook(update);
   sendToSlackWebhook(update);
 };
