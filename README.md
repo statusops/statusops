@@ -100,7 +100,7 @@ There are many ways you can contribute to StatusOps:
 
 - Register a new service to an existing status provider (examples: [Status.io](src/providers/statusio.yml), [Statuspage](src/providers/statuspage.yml)).
 - Implement a new provider. Please first check for open issues or create a new one to discuss the change you wish to make.
-- Report bug.
+- Report bugs.
 - Suggest new features via a new issue.
 
 ## License
