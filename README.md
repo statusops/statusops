@@ -94,8 +94,6 @@ You can pass any of the following env variables as `true`:
 
 ## Contribute
 
-When contributing to this repository, please first discuss the change you wish to make via issue.
-
 There are many ways you can contribute to StatusOps:
 
 - Register a new service to an existing status provider (examples: [Status.io](src/providers/statusio.yml), [Statuspage](src/providers/statuspage.yml)).
@@ -106,3 +104,7 @@ There are many ways you can contribute to StatusOps:
 ## License
 
 This project is licensed under the GNU General Public License v3.0.
+
+## About
+
+StatusOps originally was part of [EagleStatus](https://about.eaglestatus.io).
