@@ -90,6 +90,10 @@ digital_ocean:
   name: Digital Ocean
   ingestion:
     feedUrl: 'https://status.digitalocean.com/history.rss'
+dnsimple:
+  name: DNSimple
+  ingestion:
+    feedUrl: 'https://dnsimple.statuspage.io/history.rss'
 dropbox:
   name: Dropbox
   ingestion:
