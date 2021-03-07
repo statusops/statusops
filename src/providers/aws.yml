@@ -1,648 +1,648 @@
-cloudfront:
+aws_cloudfront:
   name: Amazon CloudFront
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/cloudfront.rss'
-datapipeline_us_east_1:
+aws_datapipeline_us_east_1:
   name: Amazon Data Pipeline (us-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/datapipeline-us-east-1.rss'
-datapipeline_us_west_2:
+aws_datapipeline_us_west_2:
   name: Amazon Data Pipeline (us-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/datapipeline-us-west-2.rss'
-datapipeline_eu_west_1:
+aws_datapipeline_eu_west_1:
   name: Amazon Data Pipeline (eu-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/datapipeline-eu-west-1.rss'
-datapipeline_ap_southeast_2:
+aws_datapipeline_ap_southeast_2:
   name: Amazon Data Pipeline (ap-southeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/datapipeline-ap-southeast-2.rss'
-datapipeline_ap_northeast_1:
+aws_datapipeline_ap_northeast_1:
   name: Amazon Data Pipeline (ap-northeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/datapipeline-ap-northeast-1.rss'
-docdb_us_east_1:
+aws_docdb_us_east_1:
   name: Amazon DocumentDB (us-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/docdb-us-east-1.rss'
-docdb_us_east_2:
+aws_docdb_us_east_2:
   name: Amazon DocumentDB (us-east-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/docdb-us-east-2.rss'
-docdb_us_west_2:
+aws_docdb_us_west_2:
   name: Amazon DocumentDB (us-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/docdb-us-west-2.rss'
-docdb_eu_central_1:
+aws_docdb_eu_central_1:
   name: Amazon DocumentDB (eu-central-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/docdb-eu-central-1.rss'
-docdb_eu_west_1:
+aws_docdb_eu_west_1:
   name: Amazon DocumentDB (eu-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/docdb-eu-west-1.rss'
-docdb_ap_northeast_2:
+aws_docdb_ap_northeast_2:
   name: Amazon DocumentDB (ap-northeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/docdb-ap-northeast-2.rss'
-docdb_ap_southeast_2:
+aws_docdb_ap_southeast_2:
   name: Amazon DocumentDB (ap-southeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/docdb-ap-southeast-2.rss'
-docdb_ap_northeast_1:
+aws_docdb_ap_northeast_1:
   name: Amazon DocumentDB (ap-northeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/docdb-ap-northeast-1.rss'
-ec2_ca_central_1:
+aws_ec2_ca_central_1:
   name: Amazon EC2 (ca-central-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-ca-central-1.rss'
-ec2_us_west_1:
+aws_ec2_us_west_1:
   name: Amazon EC2 (us-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-us-west-1.rss'
-ec2_us_east_1:
+aws_ec2_us_east_1:
   name: Amazon EC2 (us-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-us-east-1.rss'
-ec2_us_east_2:
+aws_ec2_us_east_2:
   name: Amazon EC2 (us-east-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-us-east-2.rss'
-ec2_us_west_2:
+aws_ec2_us_west_2:
   name: Amazon EC2 (us-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-us-west-2.rss'
-ec2_sa_east_1:
+aws_ec2_sa_east_1:
   name: Amazon EC2 (sa-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-sa-east-1.rss'
-ec2_eu_central_1:
+aws_ec2_eu_central_1:
   name: Amazon EC2 (eu-central-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-eu-central-1.rss'
-ec2_eu_west_1:
+aws_ec2_eu_west_1:
   name: Amazon EC2 (eu-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-eu-west-1.rss'
-ec2_eu_west_2:
+aws_ec2_eu_west_2:
   name: Amazon EC2 (eu-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-eu-west-2.rss'
-ec2_eu_west_3:
+aws_ec2_eu_west_3:
   name: Amazon EC2 (eu-west-3)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-eu-west-3.rss'
-ec2_eu_north_1:
+aws_ec2_eu_north_1:
   name: Amazon EC2 (eu-north-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-eu-north-1.rss'
-ec2_ap_east_1:
+aws_ec2_ap_east_1:
   name: Amazon EC2 (ap-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-ap-east-1.rss'
-ec2_ap_south_1:
+aws_ec2_ap_south_1:
   name: Amazon EC2 (ap-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-ap-south-1.rss'
-ec2_ap_northeast_3:
+aws_ec2_ap_northeast_3:
   name: Amazon EC2 (ap-northeast-3)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-ap-northeast-3.rss'
-ec2_ap_northeast_2:
+aws_ec2_ap_northeast_2:
   name: Amazon EC2 (ap-northeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-ap-northeast-2.rss'
-ec2_ap_southeast_1:
+aws_ec2_ap_southeast_1:
   name: Amazon EC2 (ap-southeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-ap-southeast-1.rss'
-ec2_ap_southeast_2:
+aws_ec2_ap_southeast_2:
   name: Amazon EC2 (ap-southeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-ap-southeast-2.rss'
-ec2_ap_northeast_1:
+aws_ec2_ap_northeast_1:
   name: Amazon EC2 (ap-northeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-ap-northeast-1.rss'
-ec2_me_south_1:
+aws_ec2_me_south_1:
   name: Amazon EC2 (me-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ec2-me-south-1.rss'
-ecs_ca_central_1:
+aws_ecs_ca_central_1:
   name: Amazon ECS (ca-central-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-ca-central-1.rss'
-ecs_us_west_1:
+aws_ecs_us_west_1:
   name: Amazon ECS (us-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-us-west-1.rss'
-ecs_us_east_1:
+aws_ecs_us_east_1:
   name: Amazon ECS (us-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-us-east-1.rss'
-ecs_us_east_2:
+aws_ecs_us_east_2:
   name: Amazon ECS (us-east-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-us-east-2.rss'
-ecs_us_west_2:
+aws_ecs_us_west_2:
   name: Amazon ECS (us-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-us-west-2.rss'
-ecs_sa_east_1:
+aws_ecs_sa_east_1:
   name: Amazon ECS (sa-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-sa-east-1.rss'
-ecs_eu_central_1:
+aws_ecs_eu_central_1:
   name: Amazon ECS (eu-central-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-eu-central-1.rss'
-ecs_eu_west_1:
+aws_ecs_eu_west_1:
   name: Amazon ECS (eu-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-eu-west-1.rss'
-ecs_eu_west_2:
+aws_ecs_eu_west_2:
   name: Amazon ECS (eu-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-eu-west-2.rss'
-ecs_eu_west_3:
+aws_ecs_eu_west_3:
   name: Amazon ECS (eu-west-3)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-eu-west-3.rss'
-ecs_eu_north_1:
+aws_ecs_eu_north_1:
   name: Amazon ECS (eu-north-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-eu-north-1.rss'
-ecs_ap_east_1:
+aws_ecs_ap_east_1:
   name: Amazon ECS (ap-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-ap-east-1.rss'
-ecs_ap_south_1:
+aws_ecs_ap_south_1:
   name: Amazon ECS (ap-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-ap-south-1.rss'
-ecs_ap_northeast_2:
+aws_ecs_ap_northeast_2:
   name: Amazon ECS (ap-northeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-ap-northeast-2.rss'
-ecs_ap_southeast_1:
+aws_ecs_ap_southeast_1:
   name: Amazon ECS (ap-southeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-ap-southeast-1.rss'
-ecs_ap_southeast_2:
+aws_ecs_ap_southeast_2:
   name: Amazon ECS (ap-southeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-ap-southeast-2.rss'
-ecs_ap_northeast_1:
+aws_ecs_ap_northeast_1:
   name: Amazon ECS (ap-northeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-ap-northeast-1.rss'
-ecs_me_south_1:
+aws_ecs_me_south_1:
   name: Amazon ECS (me-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/ecs-me-south-1.rss'
-eks_us_east_1:
+aws_eks_us_east_1:
   name: Amazon EKS (us-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/eks-us-east-1.rss'
-eks_us_east_2:
+aws_eks_us_east_2:
   name: Amazon EKS (us-east-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/eks-us-east-2.rss'
-eks_us_west_2:
+aws_eks_us_west_2:
   name: Amazon EKS (us-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/eks-us-west-2.rss'
-eks_sa_east_1:
+aws_eks_sa_east_1:
   name: Amazon EKS (sa-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/eks-sa-east-1.rss'
-eks_eu_central_1:
+aws_eks_eu_central_1:
   name: Amazon EKS (eu-central-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/eks-eu-central-1.rss'
-eks_eu_west_1:
+aws_eks_eu_west_1:
   name: Amazon EKS (eu-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/eks-eu-west-1.rss'
-eks_eu_west_2:
+aws_eks_eu_west_2:
   name: Amazon EKS (eu-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/eks-eu-west-2.rss'
-eks_eu_west_3:
+aws_eks_eu_west_3:
   name: Amazon EKS (eu-west-3)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/eks-eu-west-3.rss'
-eks_eu_north_1:
+aws_eks_eu_north_1:
   name: Amazon EKS (eu-north-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/eks-eu-north-1.rss'
-eks_ap_east_1:
+aws_eks_ap_east_1:
   name: Amazon EKS (ap-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/eks-ap-east-1.rss'
-eks_ap_south_1:
+aws_eks_ap_south_1:
   name: Amazon EKS (ap-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/eks-ap-south-1.rss'
-eks_ap_northeast_2:
+aws_eks_ap_northeast_2:
   name: Amazon EKS (ap-northeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/eks-ap-northeast-2.rss'
-eks_ap_southeast_1:
+aws_eks_ap_southeast_1:
   name: Amazon EKS (ap-southeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/eks-ap-southeast-1.rss'
-eks_ap_southeast_2:
+aws_eks_ap_southeast_2:
   name: Amazon EKS (ap-southeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/eks-ap-southeast-2.rss'
-eks_ap_northeast_1:
+aws_eks_ap_northeast_1:
   name: Amazon EKS (ap-northeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/eks-ap-northeast-1.rss'
-eks_me_south_1:
+aws_eks_me_south_1:
   name: Amazon EKS (me-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/eks-me-south-1.rss'
-elb_ca_central_1:
+aws_elb_ca_central_1:
   name: Amazon ELB (ca-central-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-ca-central-1.rss'
-elb_us_west_1:
+aws_elb_us_west_1:
   name: Amazon ELB (us-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-us-west-1.rss'
-elb_us_east_1:
+aws_elb_us_east_1:
   name: Amazon ELB (us-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-us-east-1.rss'
-elb_us_east_2:
+aws_elb_us_east_2:
   name: Amazon ELB (us-east-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-us-east-2.rss'
-elb_us_west_2:
+aws_elb_us_west_2:
   name: Amazon ELB (us-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-us-west-2.rss'
-elb_sa_east_1:
+aws_elb_sa_east_1:
   name: Amazon ELB (sa-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-sa-east-1.rss'
-elb_eu_central_1:
+aws_elb_eu_central_1:
   name: Amazon ELB (eu-central-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-eu-central-1.rss'
-elb_eu_west_1:
+aws_elb_eu_west_1:
   name: Amazon ELB (eu-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-eu-west-1.rss'
-elb_eu_west_2:
+aws_elb_eu_west_2:
   name: Amazon ELB (eu-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-eu-west-2.rss'
-elb_eu_west_3:
+aws_elb_eu_west_3:
   name: Amazon ELB (eu-west-3)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-eu-west-3.rss'
-elb_eu_north_1:
+aws_elb_eu_north_1:
   name: Amazon ELB (eu-north-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-eu-north-1.rss'
-elb_ap_east_1:
+aws_elb_ap_east_1:
   name: Amazon ELB (ap-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-ap-east-1.rss'
-elb_ap_south_1:
+aws_elb_ap_south_1:
   name: Amazon ELB (ap-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-ap-south-1.rss'
-elb_ap_northeast_3:
+aws_elb_ap_northeast_3:
   name: Amazon ELB (ap-northeast-3)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-ap-northeast-3.rss'
-elb_ap_northeast_2:
+aws_elb_ap_northeast_2:
   name: Amazon ELB (ap-northeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-ap-northeast-2.rss'
-elb_ap_southeast_1:
+aws_elb_ap_southeast_1:
   name: Amazon ELB (ap-southeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-ap-southeast-1.rss'
-elb_ap_southeast_2:
+aws_elb_ap_southeast_2:
   name: Amazon ELB (ap-southeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-ap-southeast-2.rss'
-elb_ap_northeast_1:
+aws_elb_ap_northeast_1:
   name: Amazon ELB (ap-northeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-ap-northeast-1.rss'
-elb_me_south_1:
+aws_elb_me_south_1:
   name: Amazon ELB (me-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/elb-me-south-1.rss'
-rds_ca_central_1:
+aws_rds_ca_central_1:
   name: Amazon RDS (ca-central-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-ca-central-1.rss'
-rds_us_west_1:
+aws_rds_us_west_1:
   name: Amazon RDS (us-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-us-west-1.rss'
-rds_us_east_1:
+aws_rds_us_east_1:
   name: Amazon RDS (us-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-us-east-1.rss'
-rds_us_east_2:
+aws_rds_us_east_2:
   name: Amazon RDS (us-east-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-us-east-2.rss'
-rds_us_west_2:
+aws_rds_us_west_2:
   name: Amazon RDS (us-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-us-west-2.rss'
-rds_sa_east_1:
+aws_rds_sa_east_1:
   name: Amazon RDS (sa-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-sa-east-1.rss'
-rds_eu_central_1:
+aws_rds_eu_central_1:
   name: Amazon RDS (eu-central-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-eu-central-1.rss'
-rds_eu_west_1:
+aws_rds_eu_west_1:
   name: Amazon RDS (eu-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-eu-west-1.rss'
-rds_eu_west_2:
+aws_rds_eu_west_2:
   name: Amazon RDS (eu-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-eu-west-2.rss'
-rds_eu_west_3:
+aws_rds_eu_west_3:
   name: Amazon RDS (eu-west-3)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-eu-west-3.rss'
-rds_eu_north_1:
+aws_rds_eu_north_1:
   name: Amazon RDS (eu-north-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-eu-north-1.rss'
-rds_ap_east_1:
+aws_rds_ap_east_1:
   name: Amazon RDS (ap-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-ap-east-1.rss'
-rds_ap_south_1:
+aws_rds_ap_south_1:
   name: Amazon RDS (ap-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-ap-south-1.rss'
-rds_ap_northeast_3:
+aws_rds_ap_northeast_3:
   name: Amazon RDS (ap-northeast-3)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-ap-northeast-3.rss'
-rds_ap_northeast_2:
+aws_rds_ap_northeast_2:
   name: Amazon RDS (ap-northeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-ap-northeast-2.rss'
-rds_ap_southeast_1:
+aws_rds_ap_southeast_1:
   name: Amazon RDS (ap-southeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-ap-southeast-1.rss'
-rds_ap_southeast_2:
+aws_rds_ap_southeast_2:
   name: Amazon RDS (ap-southeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-ap-southeast-2.rss'
-rds_ap_northeast_1:
+aws_rds_ap_northeast_1:
   name: Amazon RDS (ap-northeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-ap-northeast-1.rss'
-rds_me_south_1:
+aws_rds_me_south_1:
   name: Amazon RDS (me-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/rds-me-south-1.rss'
-redshift_ca_central_1:
+aws_redshift_ca_central_1:
   name: Amazon Redshift (ca-central-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-ca-central-1.rss'
-redshift_us_west_1:
+aws_redshift_us_west_1:
   name: Amazon Redshift (us-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-us-west-1.rss'
-redshift_us_east_1:
+aws_redshift_us_east_1:
   name: Amazon Redshift (us-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-us-east-1.rss'
-redshift_us_east_2:
+aws_redshift_us_east_2:
   name: Amazon Redshift (us-east-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-us-east-2.rss'
-redshift_us_west_2:
+aws_redshift_us_west_2:
   name: Amazon Redshift (us-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-us-west-2.rss'
-redshift_sa_east_1:
+aws_redshift_sa_east_1:
   name: Amazon Redshift (sa-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-sa-east-1.rss'
-redshift_eu_central_1:
+aws_redshift_eu_central_1:
   name: Amazon Redshift (eu-central-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-eu-central-1.rss'
-redshift_eu_west_1:
+aws_redshift_eu_west_1:
   name: Amazon Redshift (eu-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-eu-west-1.rss'
-redshift_eu_west_2:
+aws_redshift_eu_west_2:
   name: Amazon Redshift (eu-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-eu-west-2.rss'
-redshift_eu_west_3:
+aws_redshift_eu_west_3:
   name: Amazon Redshift (eu-west-3)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-eu-west-3.rss'
-redshift_eu_north_1:
+aws_redshift_eu_north_1:
   name: Amazon Redshift (eu-north-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-eu-north-1.rss'
-redshift_ap_east_1:
+aws_redshift_ap_east_1:
   name: Amazon Redshift (ap-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-ap-east-1.rss'
-redshift_ap_south_1:
+aws_redshift_ap_south_1:
   name: Amazon Redshift (ap-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-ap-south-1.rss'
-redshift_ap_northeast_3:
+aws_redshift_ap_northeast_3:
   name: Amazon Redshift (ap-northeast-3)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-ap-northeast-3.rss'
-redshift_ap_northeast_2:
+aws_redshift_ap_northeast_2:
   name: Amazon Redshift (ap-northeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-ap-northeast-2.rss'
-redshift_ap_southeast_1:
+aws_redshift_ap_southeast_1:
   name: Amazon Redshift (ap-southeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-ap-southeast-1.rss'
-redshift_ap_southeast_2:
+aws_redshift_ap_southeast_2:
   name: Amazon Redshift (ap-southeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-ap-southeast-2.rss'
-redshift_ap_northeast_1:
+aws_redshift_ap_northeast_1:
   name: Amazon Redshift (ap-northeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-ap-northeast-1.rss'
-redshift_me_south_1:
+aws_redshift_me_south_1:
   name: Amazon Redshift (me-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/redshift-me-south-1.rss'
-s3_ca_central_1:
+aws_s3_ca_central_1:
   name: Amazon S3 (ca-central-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-ca-central-1.rss'
-s3_us_west_1:
+aws_s3_us_west_1:
   name: Amazon S3 (us-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-us-west-1.rss'
-s3_us_standard:
+aws_s3_us_standard:
   name: Amazon S3 (us-standard)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-us-standard.rss'
-s3_us_east_2:
+aws_s3_us_east_2:
   name: Amazon S3 (us-east-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-us-east-2.rss'
-s3_us_west_2:
+aws_s3_us_west_2:
   name: Amazon S3 (us-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-us-west-2.rss'
-s3_sa_east_1:
+aws_s3_sa_east_1:
   name: Amazon S3 (sa-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-sa-east-1.rss'
-s3_eu_central_1:
+aws_s3_eu_central_1:
   name: Amazon S3 (eu-central-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-eu-central-1.rss'
-s3_eu_west_1:
+aws_s3_eu_west_1:
   name: Amazon S3 (eu-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-eu-west-1.rss'
-s3_eu_west_2:
+aws_s3_eu_west_2:
   name: Amazon S3 (eu-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-eu-west-2.rss'
-s3_eu_west_3:
+aws_s3_eu_west_3:
   name: Amazon S3 (eu-west-3)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-eu-west-3.rss'
-s3_eu_north_1:
+aws_s3_eu_north_1:
   name: Amazon S3 (eu-north-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-eu-north-1.rss'
-s3_ap_east_1:
+aws_s3_ap_east_1:
   name: Amazon S3 (ap-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-ap-east-1.rss'
-s3_ap_south_1:
+aws_s3_ap_south_1:
   name: Amazon S3 (ap-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-ap-south-1.rss'
-s3_ap_northeast_3:
+aws_s3_ap_northeast_3:
   name: Amazon S3 (ap-northeast-3)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-ap-northeast-3.rss'
-s3_ap_northeast_2:
+aws_s3_ap_northeast_2:
   name: Amazon S3 (ap-northeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-ap-northeast-2.rss'
-s3_ap_southeast_1:
+aws_s3_ap_southeast_1:
   name: Amazon S3 (ap-southeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-ap-southeast-1.rss'
-s3_ap_southeast_2:
+aws_s3_ap_southeast_2:
   name: Amazon S3 (ap-southeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-ap-southeast-2.rss'
-s3_ap_northeast_1:
+aws_s3_ap_northeast_1:
   name: Amazon S3 (ap-northeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-ap-northeast-1.rss'
-s3_me_south_1:
+aws_s3_me_south_1:
   name: Amazon S3 (me-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/s3-me-south-1.rss'
-vpc_ca_central_1:
+aws_vpc_ca_central_1:
   name: Amazon VPC (ca-central-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-ca-central-1.rss'
-vpc_us_west_1:
+aws_vpc_us_west_1:
   name: Amazon VPC (us-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-us-west-1.rss'
-vpc_us_east_1:
+aws_vpc_us_east_1:
   name: Amazon VPC (us-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-us-east-1.rss'
-vpc_us_east_2:
+aws_vpc_us_east_2:
   name: Amazon VPC (us-east-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-us-east-2.rss'
-vpc_us_west_2:
+aws_vpc_us_west_2:
   name: Amazon VPC (us-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-us-west-2.rss'
-vpc_sa_east_1:
+aws_vpc_sa_east_1:
   name: Amazon VPC (sa-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-sa-east-1.rss'
-vpc_eu_central_1:
+aws_vpc_eu_central_1:
   name: Amazon VPC (eu-central-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-eu-central-1.rss'
-vpc_eu_west_1:
+aws_vpc_eu_west_1:
   name: Amazon VPC (eu-west-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-eu-west-1.rss'
-vpc_eu_west_2:
+aws_vpc_eu_west_2:
   name: Amazon VPC (eu-west-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-eu-west-2.rss'
-vpc_eu_west_3:
+aws_vpc_eu_west_3:
   name: Amazon VPC (eu-west-3)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-eu-west-3.rss'
-vpc_eu_north_1:
+aws_vpc_eu_north_1:
   name: Amazon VPC (eu-north-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-eu-north-1.rss'
-vpc_ap_east_1:
+aws_vpc_ap_east_1:
   name: Amazon VPC (ap-east-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-ap-east-1.rss'
-vpc_ap_south_1:
+aws_vpc_ap_south_1:
   name: Amazon VPC (ap-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-ap-south-1.rss'
-vpc_ap_northeast_3:
+aws_vpc_ap_northeast_3:
   name: Amazon VPC (ap-northeast-3)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-ap-northeast-3.rss'
-vpc_ap_northeast_2:
+aws_vpc_ap_northeast_2:
   name: Amazon VPC (ap-northeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-ap-northeast-2.rss'
-vpc_ap_southeast_1:
+aws_vpc_ap_southeast_1:
   name: Amazon VPC (ap-southeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-ap-southeast-1.rss'
-vpc_ap_southeast_2:
+aws_vpc_ap_southeast_2:
   name: Amazon VPC (ap-southeast-2)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-ap-southeast-2.rss'
-vpc_ap_northeast_1:
+aws_vpc_ap_northeast_1:
   name: Amazon VPC (ap-northeast-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-ap-northeast-1.rss'
-vpc_me_south_1:
+aws_vpc_me_south_1:
   name: Amazon VPC (me-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/vpc-me-south-1.rss'
