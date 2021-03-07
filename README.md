@@ -7,7 +7,7 @@ StatusOps is an open-source (GPLv3) service that makes it easy to integrate thir
 - **Easy integration**: updates can be posted via a HTTP webhook or directly to Slack.
 - **Written in NodeJS**: its great I/O makes status checks a breeze.
 
-⚠️ **Issues and merge requests are handled from the [gitlab repository](https://gitlab.com/statusops/statusops). The [github repository](https://github.com/statusops/statusops) is a mirror.**⚠️
+**⚠️Issues and merge requests are handled from the [gitlab repository](https://gitlab.com/statusops/statusops). The [github repository](https://github.com/statusops/statusops) is a mirror.⚠️**
 
 ## Install
 
