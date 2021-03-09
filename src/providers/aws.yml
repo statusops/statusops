@@ -730,3 +730,87 @@ aws_lambda_me_south_1:
   name: Amazon Lambda (me-south-1)
   ingestion:
     feedUrl: 'https://status.aws.amazon.com/rss/lambda-me-south-1.rss'
+aws_apigateway_ca_central_1:
+  name: Amazon API Gateway (ca-central-1)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-ca-central-1.rss'
+aws_apigateway_us_west_1:
+  name: Amazon API Gateway (us-west-1)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-us-west-1.rss'
+aws_apigateway_us_east_1:
+  name: Amazon API Gateway (us-east-1)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-us-east-1.rss'
+aws_apigateway_us_east_2:
+  name: Amazon API Gateway (us-east-2)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-us-east-2.rss'
+aws_apigateway_us_west_2:
+  name: Amazon API Gateway (us-west-2)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-us-west-2.rss'
+aws_apigateway_sa_east_1:
+  name: Amazon API Gateway (sa-east-1)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-sa-east-1.rss'
+aws_apigateway_eu_central_1:
+  name: Amazon API Gateway (eu-central-1)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-eu-central-1.rss'
+aws_apigateway_eu_west_1:
+  name: Amazon API Gateway (eu-west-1)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-eu-west-1.rss'
+aws_apigateway_eu_west_2:
+  name: Amazon API Gateway (eu-west-2)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-eu-west-2.rss'
+aws_apigateway_eu_south_1:
+  name: Amazon API Gateway (eu-south-1)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-eu-south-1.rss'
+aws_apigateway_eu_west_3:
+  name: Amazon API Gateway (eu-west-3)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-eu-west-3.rss'
+aws_apigateway_eu_north_1:
+  name: Amazon API Gateway (eu-north-1)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-eu-north-1.rss'
+aws_apigateway_af_south_1:
+  name: Amazon API Gateway (af-south-1)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-af-south-1.rss'
+aws_apigateway_ap_east_1:
+  name: Amazon API Gateway (ap-east-1)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-ap-east-1.rss'
+aws_apigateway_ap_south_1:
+  name: Amazon API Gateway (ap-south-1)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-ap-south-1.rss'
+aws_apigateway_ap_northeast_3:
+  name: Amazon API Gateway (ap-northeast-3)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-ap-northeast-3.rss'
+aws_apigateway_ap_northeast_2:
+  name: Amazon API Gateway (ap-northeast-2)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-ap-northeast-2.rss'
+aws_apigateway_ap_southeast_1:
+  name: Amazon API Gateway (ap-southeast-1)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-ap-southeast-1.rss'
+aws_apigateway_ap_southeast_2:
+  name: Amazon API Gateway (ap-southeast-2)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-ap-southeast-2.rss'
+aws_apigateway_ap_northeast_1:
+  name: Amazon API Gateway (ap-northeast-1)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-ap-northeast-1.rss'
+aws_apigateway_me_south_1:
+  name: Amazon API Gateway (me-south-1)
+  ingestion:
+    feedUrl: 'https://status.aws.amazon.com/rss/apigateway-me-south-1.rss'
