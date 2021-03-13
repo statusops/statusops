@@ -4,3 +4,4 @@ providers:
   - aws
   - google-cloud
   - gsuite
+  - slack
