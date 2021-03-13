@@ -2,9 +2,10 @@
 
 StatusOps is an open-source (GPLv3) service that makes it easy to integrate third-party incident updates with other workflows.
 
+- **Real-time updates**: every minute it checks if any service has published an incident.
+- **Easy integration**: updates can be posted via a HTTP webhook or directly to Slack.
 - **Standard interface**: services such as Gitlab, Github, AWS or Google Cloud have different ways of posting status updates. StatusOps offers a standard interface.
 - **Ready to use**: there's already [hundreds of services available](https://gitlab.com/statusops/statusops/-/packages/1101031). Contribute to have even more!
-- **Easy integration**: updates can be posted via a HTTP webhook or directly to Slack.
 - **Written in NodeJS**: its great I/O makes status checks a breeze.
 
 **⚠️ Issues and merge requests are handled from the [gitlab repository](https://gitlab.com/statusops/statusops). The [github repository](https://github.com/statusops/statusops) is a mirror. ⚠️**
