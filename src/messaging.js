@@ -4,6 +4,8 @@ const slack = require("./infra/slack");
 
 const send = async (update) => {
   logger.info(`Sending update from ${update.serviceKey}...`);
+  logger.debug(`Update: ${JSON.stringify(update)}`);
+
   sendToHttpWebhook(update);
   sendToSlackWebhook(update);
 };
