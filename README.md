@@ -40,6 +40,7 @@ Configuration is done via the following environment variables.
 - `MESSAGING_SLACK_WEBHOOK`: details can be found [here](https://slack.com/intl/en-gb/help/articles/115005265063-Incoming-webhooks-for-Slack)
 - `REDIS_URL`: it defaults to `redis://localhost:6379`
 - `LOG_LEVEL`: it defaults to `info`
+- `SENTRY_DSN`: (optional) it allows you to report exceptions to [Sentry](https://sentry.io/welcome/).
 
 ### Start service
 

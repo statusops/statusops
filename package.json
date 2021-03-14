@@ -26,6 +26,7 @@
     "sinon-chai": "^3.5.0"
   },
   "dependencies": {
+    "@sentry/node": "^6.2.2",
     "@slack/webhook": "^6.0.0",
     "axios": "^0.21.1",
     "bull": "^3.20.0",

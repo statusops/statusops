@@ -5,6 +5,7 @@ const logger = require("./src/infra/logger");
 const Queue = require("bull");
 const CONCURRENCY = 10;
 const queue = new Queue("ingestions", REDIS_URL);
+const { captureException } = require("./src/infra/exceptions");
 
 queue.process(CONCURRENCY, async (job) => {
   const { name, providerName, data } = job.data;
@@ -13,6 +14,8 @@ queue.process(CONCURRENCY, async (job) => {
 });
 
 queue.on("failed", (job) => {
+  const error = new Error(job.failedReason);
+  captureException(error);
   logger.error(job.failedReason);
 });
 
