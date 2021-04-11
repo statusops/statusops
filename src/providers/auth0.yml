@@ -1,0 +1,24 @@
+auth0_au:
+  name: Auth0 (AU)
+  ingestion:
+    domain: 'au.auth0.com'
+auth0_eu:
+  name: Auth0 (EU)
+  ingestion:
+    domain: 'eu.auth0.com'
+auth0_jp1:
+  name: Auth0 (JP-1)
+  ingestion:
+    domain: 'jp1.auth0.com'
+auth0_us1:
+  name: Auth0 (US-1)
+  ingestion:
+    domain: 'us1.auth0.com'
+auth0_us2:
+  name: Auth0 (US-2)
+  ingestion:
+    domain: 'us2.auth0.com'
+auth0_us3:
+  name: Auth0 (US-3)
+  ingestion:
+    domain: 'us3.auth0.com'

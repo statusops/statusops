@@ -5,3 +5,4 @@ providers:
   - google-cloud
   - gsuite
   - slack
+  - auth0
