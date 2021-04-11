@@ -41,6 +41,7 @@ Configuration is done via the following environment variables.
 - `REDIS_URL`: it defaults to `redis://localhost:6379`
 - `LOG_LEVEL`: it defaults to `info`
 - `SENTRY_DSN`: (optional) it allows you to report exceptions to [Sentry](https://sentry.io/welcome/).
+- `HEARTBEAT_URL`: (optional) every minute a request will be sent to the specified url.
 
 ### Start service
 
