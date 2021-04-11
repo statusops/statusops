@@ -62,7 +62,7 @@ describe("Auth0", () => {
       expect(updates).to.have.lengthOf(2);
     });
 
-    it("parses the last update of a statuspage incident", async () => {
+    it("parses the last update of a auth0 incident", async () => {
       let description = "";
       description +=
         "<p><small>Oct <var data-var='date'>25</var>, <var data-var='time'>09:37</var> PDT</small><br><strong>Update</strong> - LAST UPDATE.</p>";
