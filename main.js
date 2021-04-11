@@ -2,7 +2,7 @@ const { runIngestion } = require("./src/ingestion");
 const { REDIS_URL } = require("./src/infra/redis");
 const providers = require("./src/providers");
 const logger = require("./src/infra/logger");
-const axios = require('axios')
+const axios = require("axios");
 const Queue = require("bull");
 const { captureException } = require("./src/infra/exceptions");
 
@@ -53,7 +53,9 @@ const scheduleHeartbeat = () => {
       await axios.get(heartbeatUrl);
     } catch (error) {
       captureException(error);
-      logger.error(`Failed to send heartbeat to ${heartbeatUrl}: ${error.message}`);
+      logger.error(
+        `Failed to send heartbeat to ${heartbeatUrl}: ${error.message}`
+      );
     }
   });
 
